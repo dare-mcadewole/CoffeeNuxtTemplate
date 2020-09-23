@@ -1,0 +1,47 @@
+// Color
+$base-font-color: #333;
+$primary: #FFBD2D;
+// $secondary: #27AE60;
+$secondary: #F2FFF8;
+$accent: #E1FFEE;
+$alert: #EB5757;
+$success: #27AE60;
+$warning: #FFBD2D;
+$white: #FFF;
+$gray: #BDBDBD;
+$deep-gray: #EAEAEA;
+$solid-gray: #777777;
+$black: #000000;
+$dark: #333333;
+$cyan: #F2FFF8;
+$light-blue: #FAFAFA;
+$light-cyan: #FBFDFF;
+$light-yellow: #FFFCF6;
+$button-yellow: #FFE7B1;
+$dark-overlay: rgba(0, 0, 0, 0.4);
+$body-font-color: $black;
+$header-font-color: $dark;
+// Width Specs
+$_max-width: 1300px;
+$max-width: 1300px;
+// Border radius
+$radius: 0.375rem;
+$big-radius: 10px;
+$dialog-radius: 15px;
+$base-padding: 20px;
+$base-padding-tablet: 60px;
+$base-padding-desktop: 30px;
+$body-margin-desktop: 20px;
+$body-margin: 20px;
+$section-margin-desktop: 130px;
+$section-margin: 70px;
+// Image
+$avatar: 50px;
+$avatar-dim-mobile: 100px;
+$avatar-dim-desktop: 100px;
+// Device Breakpoints
+$mobile: 599px;
+$tablet: 959px;
+$desktop: 960px;
+// Angles
+$logo-angle: 24.78deg;

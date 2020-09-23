@@ -1,0 +1,25 @@
+input,
+.input, .select {
+    outline: 0;
+    color: $black;
+    letter-spacing: 0.3px;
+}
+
+.form-group {
+    label {
+        font-size: 14px;
+        padding-bottom: 0;
+        color: $base-font-color;
+    }
+
+    .form-input, .form-select {
+        border-radius: $radius;
+        padding-left: 10px;
+        color: $black;
+        height: 40px;
+        box-shadow: none;
+        &:focus {
+            border-color: #777777;
+        }
+    }
+}

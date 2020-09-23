@@ -1,0 +1,33 @@
+button,
+button.button {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: $radius;
+    transition: all .2s linear 0s;
+    &:hover {
+        opacity: 0.87;
+    }
+}
+
+.btn-group {
+    .btn {
+        min-width: 14em;
+        height: 40px; // 2.3rem;
+        background-color: #D1D3D4;
+        border: 0;
+        color: $dark;
+        opacity: 0.5;
+        &.active {
+            font-weight: bold;
+            letter-spacing: 0.3px;
+            opacity: 1;
+        }
+    }
+    .btn:first-child:not(:last-child) {
+        border-radius: 5px 0 0 5px;
+    }
+    .btn:last-child:not(:first-child) {
+        border-radius: 0 5px 5px 0;
+    }
+}

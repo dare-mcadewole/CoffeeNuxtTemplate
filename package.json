@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Nuxt.js with CoffeeScript",
   "author": "Alex Ananiev <alex.ananiev.r@gmail.com>",
+  "engines": {
+    "node": ">=11.6.0",
+    "npm": "^6.14.4",
+    "yarn": "^1.22.4"
+  },
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -12,7 +17,14 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "nuxt": "latest"
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^3.0.2",
+    "node-sass": "^4.14.1",
+    "nuxt": "latest",
+    "sass-loader": "^10.0.2",
+    "vee-validate": "^3.4.0"
   },
   "devDependencies": {
     "coffee-loader": "^0.8.0",

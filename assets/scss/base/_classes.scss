@@ -1,0 +1,145 @@
+// Color
+.primary {
+    background-color: $primary !important;
+}
+
+.primary-text {
+    color: $primary !important;
+}
+
+.secondary {
+    background-color: $secondary !important;
+}
+
+.secondary-text {
+    color: $secondary !important;
+}
+
+.accent {
+    background-color: $accent !important;
+}
+
+.accent-text {
+    color: $accent !important;
+}
+
+.black {
+    background-color: $black !important;
+}
+
+.black-text {
+    color: $black !important;
+}
+
+.white {
+    background-color: $white !important;
+}
+
+.white-text {
+    color: $white !important;
+}
+
+.dark {
+    background-color: $dark !important;
+}
+
+.dark-text {
+    color: $dark !important;
+}
+
+.gray {
+    background-color: $gray !important;
+}
+
+.gray-text {
+    color: $gray !important;
+}
+
+.deep-gray {
+    background-color: $deep-gray !important;
+}
+
+.deep-gray-text {
+    color: $deep-gray !important;
+}
+
+.solid-gray {
+    background-color: $solid-gray !important;
+}
+
+.solid-gray-text {
+    color: $solid-gray !important;
+}
+
+.cyan {
+    background-color: $cyan !important;
+}
+
+.cyan-text {
+    color: $cyan !important;
+}
+
+.light-cyan {
+    background-color: $light-cyan !important;
+}
+
+.light-cyan-text {
+    color: $light-cyan !important;
+}
+
+.light-yellow {
+    background-color: $light-yellow !important;
+}
+
+.light-yellow-text {
+    color: $light-yellow !important;
+}
+
+.button-yellow {
+    background-color: $button-yellow !important;
+}
+
+.button-yellow-text {
+    color: $button-yellow !important;
+}
+
+.alert {
+    background-color: $alert !important;
+}
+
+.alert-text {
+    color: $alert !important;
+}
+
+.success {
+    background-color: $success !important;
+}
+
+.success-text {
+    color: $success !important;
+}
+
+.warning {
+    background-color: $warning !important;
+}
+
+.warning-text {
+    color: $warning !important;
+}
+
+// Border radius
+.round {
+    border-radius: $radius;
+}
+
+.rounder {
+    border-radius: $big-radius;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 0px rgba($black, 0.5);
+}
